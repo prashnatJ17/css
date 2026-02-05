@@ -73,8 +73,6 @@
 
 <div class="box box4">Fixed</div>
 
-</body>
-</html>
 
 
 
@@ -140,9 +138,6 @@ body{
 
 
 
-
-
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -202,10 +197,6 @@ body{
 
 </body>
 </html>
-
-
-
-
 
 
 
@@ -351,6 +342,10 @@ body{
     </div>
 
 </div>
+
+</body>
+</html>
+
 
 </body>
 </html>
