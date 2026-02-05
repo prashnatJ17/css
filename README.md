@@ -73,9 +73,6 @@
 
 <div class="box box4">Fixed</div>
 
-
-
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -197,8 +194,6 @@ body{
 
 </body>
 </html>
-
-
 
 <!DOCTYPE html>
 <html lang="en">
