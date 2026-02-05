@@ -73,9 +73,8 @@
 
 <div class="box box4">Fixed</div>
 
-
-
-
+</body>
+</html>
 <!DOCTYPE html>
 <html>
 <head>
@@ -135,71 +134,120 @@ body{
 
 </body>
 </html>
-
-
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Assignment 3</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fashion Banner</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 <style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
 body{
-  background: #ffe0b2;
-  font-family: Arial, sans-serif;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  height:100vh;
+    background: linear-gradient(135deg, #ffb347, #ffcc33);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
+/* Card */
 .card{
-  width: 800px;
-  height: 350px;
-  background: white;
-  border-radius: 20px;
-  display:flex;
-  justify-content: space-between;
-  align-items:center;
-  padding: 40px;
-  box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+    background: #fff;
+    width: 900px;
+    height: 450px;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+    position: relative;
+    overflow: hidden;
+    padding: 40px;
 }
 
-.text h1{
-  font-size: 36px;
+/* Menu icon */
+.menu{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 22px;
+    cursor: pointer;
 }
 
-.text button{
-  margin-top: 15px;
-  padding: 10px 20px;
-  border:none;
-  background: orange;
-  color:white;
-  border-radius: 8px;
-  cursor:pointer;
+/* Text section */
+.text-box{
+    width: 50%;
+    z-index: 2;
 }
 
-.img img{
-  height: 300px;
+.text-box h1{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #222;
+}
+
+.text-box button{
+    margin-top: 20px;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 30px;
+    background: orange;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.text-box button:hover{
+    background: #ff8c00;
+}
+
+/* Model image */
+.model{
+    position: absolute;
+    right: 40px;
+    bottom: 0;
+    height: 420px;
+    z-index: 3;
+}
+
+/* Shadow effect behind model */
+.shadow{
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+    width: 200px;
+    height: 350px;
+    background: red;
+    border-radius: 50%;
+    filter: blur(60px);
+    opacity: 0.6;
 }
 </style>
 </head>
 <body>
 
 <div class="card">
-  <div class="text">
-    <h1>It’s time to stand out<br>from the crowd.</h1>
-    <button>New Collection</button>
-  </div>
-  <div class="img">
-    <img src="https://share.google/CsUnW3tEK2MmwnzgS" alt="model">
-  </div>
+    <div class="menu">☰</div>
+
+    <div class="text-box">
+        <h1>IT'S TIME TO STAND<br>OUT FROM THE<br>CROWD.</h1>
+        <button>New Collection</button>
+    </div>
+
+    <div class="shadow"></div>
+
+    <!-- Replace image URL with your own model image -->
+    <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e" class="model">
 </div>
 
 </body>
 </html>
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -342,10 +390,6 @@ body{
     </div>
 
 </div>
-
-</body>
-</html>
-
 
 </body>
 </html>
