@@ -191,7 +191,7 @@ body{
     <button>New Collection</button>
   </div>
   <div class="img">
-    <img src="c:\Users\tejas\Downloads\fashion-pretty-cool-youngwith-shopping-bags-wearing-black-hat-white-pants-over-colorful-orange-background-79063329.webp" alt="model">
+    <img src="https://share.google/CsUnW3tEK2MmwnzgS" alt="model">
   </div>
 </div>
 
